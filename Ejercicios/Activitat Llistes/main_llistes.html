@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Consulte los diferentes tipos de listas que exsisten en HTML">
+    <meta name="keywords" content="listas, html, componentes">
+    <meta name="author" content="EduOlivares">
+    <title>Tipos de Listas</title>
+</head>
+<body>
+    <header>
+        <h1 style="background-color: navy; color: white;">Tipos de listas</h1>
+        <nav>
+            <ul>
+                <li><a href="#marcas">Lenjuages de marcas </a></li>
+                <li><a href="#programacion">Lenjuages de programación</a></li>
+                <li><a href="#glosario">Glosario informatico</a></li>
+                <li><a href="#componentes">Lista de componentes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 id="marcas" style="color: navy;">Lenjuages de marcas</h2>
+    <ul style="list-style-type: square;">
+        <li><abbr title="Hypertext Markup Language">HTML</abbr></li>
+        <li><abbr title="Extensible Markup Language">XML</abbr></li>
+        <li><abbr title="JavaScript Object Notation">JSON</abbr></li>
+    </ul>
+    <h2 id="programacion" style="color: navy;">Lenjuages de programación</h2>
+    <ol type="a" start="3">
+        <li>PHP</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>Java</li>
+        <li>Python</li>
+    </ol>
+
+    <h2 id="glosario" style="color: navy;">Glosario informatico</h2>
+    <dl>
+        <dt style="font-weight: bold;">HW</dt>
+        <dd>Componentes tangibles de un sistema informático</dd>
+        <dt style="font-weight: bold;">SW</dt>
+        <dd>Componentes intangibles de un sistema informático</dd>
+        <dt style="font-weight: bold;">Firmware</dt>
+        <dd>Parte SW de los componentes tangibles de un sistema informático</dd>
+    </dl>
+
+    <h2 id="componentes" style="color: navy;">Lista de componentes</h2>
+    <ul>
+        <li style="font-weight: bold;">Procesador (CPU)</li>
+        <ul>
+            <li>Intel Core i9</li>
+            <li>AMD Ryzen 7</li>
+        </ul>
+        <li style="font-weight: bold;">Tarjeta Gráfica (GPU)</li>
+            <ul>
+                <li>Nvidia GeForce RTX 4090</li>
+                <li>AMD Radeon RX 7900</li>
+            </ul>
+        <li style="font-weight: bold;">Memoria RAM</li>
+            <ul>
+                <li>8GB DDR4</li>
+                <li>16GB DDR5</li>
+                <ul style="list-style-type: square;">
+                    <li><b>Velocidad:</b> 4800 MHz</li>
+                    <li><b>Latencia:</b> CL40</li>
+                    <li><b>Voltaje:</b> 1.1V</li>
+                    <li style="font-weight: bold;">Tipos de uso:</li>
+                    <ul>
+                        <li>Gaming</li>
+                        <li>Edición de video</li>
+                        <li>Renderizado 3D</li>
+                    </ul>
+                </ul>
+                <li>32GB DDR5</li>
+            </ul>
+        <li style="font-weight: bold;">Almacenamiento</li>
+        <ul>
+            <li>SSD NVMe 1TB</li>
+            <li>HDD 2TB</li>
+            <ul style="list-style-type: square;">
+                <li>Velocidad de rotación: 7200 RPM</li>
+                <li style="font-weight: bold;">Interfaz: SATA 6Gb/s</li>
+                <li style="font-weight: bold;">Caché: 256MB</li>
+                <li style="font-weight: bold;">Tipos de uso:</li>
+                <ul>
+                    <li>Almacenamiento masivo</li>
+                    <li>Servidores</li>
+                    <li>Respaldo de datos</li>
+                </ul>
+            </ul>
+            <li>SSD SATA 500GB</li>
+        </ul>
+        <li style="font-weight: bold;">Placa Base</li>
+        <ul>
+            <li>ASUS ROG Strix X570</li>
+            <li>MSI B450 Tomahawk</li>
+        </ul>
+    </ul>
+
+</body>
+</html>
