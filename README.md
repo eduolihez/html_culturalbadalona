@@ -3,7 +3,7 @@
 ![Badge Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-brightgreen) 
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-blue)
 
-Repositorio educativo donde documento mi progreso en el aprendizaje de HTML durante el curso en el **Colegio Cultural Badalona**.
+Repositorio educativo donde documento mi progreso en el aprendizaje de HTML durante el curso en el [**Colegio Cultural Badalona**](culturalbadalona.com).
 
 ## 🎯 Descripción
 Este repositorio contiene:
