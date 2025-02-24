@@ -12,7 +12,7 @@ Este repositorio contiene:
 - Recursos de aprendizaje
 - Evolución de mis habilidades web
 
-Ejemplo destacado: [Sitio Cine Paradiso](src/public/cartelera.html) 🎥
+Ejemplo destacado: [Sitio Cine Paradiso](web/index.html) 🎥
 
 ## 📂 Contenidos Principales
 ```plaintext
@@ -41,7 +41,7 @@ Ejemplo destacado: [Sitio Cine Paradiso](src/public/cartelera.html) 🎥
 ## 📖 Cómo Usar
 ```bash
 # Clonar repositorio
-git clone https://github.com/tu-usuario/aprendizaje-html-badalona.git
+git clone https://github.com/eduolihez/html_culturalbadalona.git
 
 # Abrir archivos en navegador
 open index.html
